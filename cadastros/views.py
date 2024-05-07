@@ -4,4 +4,7 @@ from django.http import HttpResponse
 def home(request):
     return render(request, 'home.html')
 
+def consult(request):
+    return render(request, 'pag002.html')
+
 # Create your views here.
